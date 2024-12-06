@@ -38,4 +38,18 @@ Route::get('/gr/accident', function () {
     return view('gr.accident'); 
 })->name('gr.accident'); // Correctly defining the named route
 
+Route::get('/form/card', function(){
+    return view('form.card');
+})->name('form.card');
 
+Route::get('/form/email', function(){
+    return view('form.email');
+})->name('form.email');
+
+Route::get('/form/pms', function(){
+    return view('form.pms');
+})->name('form.pms');
+
+Route::get('/form/userdomain' , function(){
+    return view('form.userdomain');
+})->name('form.userdomain');

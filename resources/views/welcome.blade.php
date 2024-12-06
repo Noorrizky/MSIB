@@ -375,7 +375,7 @@
             </svg>
             <i class="fa-solid fa-shield-halved"></i>
           </div>
-          <a href="pms-req-form.html" target="_blank" class="stretched-link">
+          <a href="{{route('form.pms')}}" target="_blank" class="stretched-link">
             <h3>PMS Request Form</h3>
           </a>
         </div>
@@ -391,7 +391,7 @@
             </svg>
             <i class="fa-regular fa-envelope"></i>
           </div>
-          <a href="email-req-form.html" target="_blank" class="stretched-link">
+          <a href="{{route('form.email')}}" target="_blank" class="stretched-link">
             <h3>Email Request Form</h3>
           </a>
         </div>
@@ -407,7 +407,7 @@
             </svg>
             <i class="fa-solid fa-users"></i>
           </div>
-          <a href="userdom-req-form.html" target="_blank" class="stretched-link">
+          <a href="{{route('form.userdomain')}}" target="_blank" class="stretched-link">
             <h3>User Domain Request Form</h3>
           </a>
         </div>
@@ -423,7 +423,7 @@
             </svg>
             <i class="fa-regular fa-credit-card"></i>
           </div>
-          <a href="acc-card-req-form.html" target="_blank" class="stretched-link">
+          <a href="{{route('form.card')}}" target="_blank" class="stretched-link">
             <h3>Access Card Request Form</h3>
           </a>
         </div>
